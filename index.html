@@ -1,212 +1,161 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>Infraestructura Meduca</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
-	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-  	<link rel="stylesheet" type="text/css" href="meduca.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roger Urrutia</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b271900939.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<!-- spinner -->
-<div class="spinner-wrapper">
-		<div class="spinner"></div>
-</div>
-
-
-<!-- Barra de Navegacion -->
-<nav id="Nav" class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
-	<a class="navbar-brand "href="http://www.meduca.gob.pa">Meduca</a>
-	<button class="navbar-toggler" data-toggle="collapse" data-target="#Navbar" aria-label="Toggle NAvigation">
-		<span class="navbar-toggler-icon"></span>
-	</button>
-	<div class="collapse navbar-collapse" id="Navbar">
-		<ul class="navbar-nav">
-			<li class="navbar-item">
-				<a href="\provincias.html" class="nav-link">Provincias</a>
-			</li>
-		</ul>
-	</div>
-</nav>
-
-<!-- Slider -->
-	<div class="row">
-		<div class="col-lg-12">
-			<div id="CarouselMeduca" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
-				<ol class="carousel-indicators">
-					<li data-target="#CarouselMeduca" data-slide-to="0" class="active"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="1"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="2"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="3"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="4"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="5"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="6"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="7"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="8"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="9"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="10"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="11"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="12"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="13"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="14"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="15"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="16"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="17"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="18"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="19"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="20"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="21"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="22"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="23"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="24"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="25"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="26"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="27"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="28"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="29"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="30"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="31"></li>
-					<li data-target="#CarouselMeduca" data-slide-to="32"></li>
-				</ol>
-
-				<div class="carousel-inner" >
-					<div class="carousel-item active" data-interval="10000">
-						<img class="d-block w-100" src="Inicio.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\BocasDelToro.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\bocas1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\bocas2.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\bocas3.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Cocle.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\cocle1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\cocle2.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Colon.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\colon1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Chiriqui.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\chiriqui1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Darien.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\darien1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Herrera.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\herrera1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\LosSantos.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\lossantos1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Panama.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\panama1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\panama2.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\panama3.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Veraguas.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\veraguas1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\veraguas2.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\veraguas3.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\PanamaOeste.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\panamaoeste1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="provincias\Comarcas.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\comarcachiriqui1.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\comarcachiriqui2.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\comarcachiriqui3.jpg">
-					</div>
-					<div class="carousel-item " data-interval="10000" >
-						<img class="d-block w-100" src="informacion\comarcaveraguas1.jpg">
-					</div>
-				</div>
-			</div>
-			<div>
-				<a href="#CarouselMeduca" class="carousel-control-prev" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-
-				<a href="#CarouselMeduca" class="carousel-control-next" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-			</div>
-		</div>
-	</div>
-
-
-
-<!-- Scripts de Javascript -->
-	<script
-	src="https://code.jquery.com/jquery-3.4.1.js"
-	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script>
-		$(document).ready(function() {
-		//Preloader
-		$(window).on("load", function() {
-		preloaderFadeOutTime = 10000;
-		function hidePreloader() {
-		var preloader = $('.spinner-wrapper');
-		preloader.fadeOut(preloaderFadeOutTime);}
-		hidePreloader();
-		});
-		});
-	</script>
+    <div class="landing">
+        <div class="container">
+            <div id="main">
+                <ul>
+                    <li><i class="fab fa-linkedin-in"></i> LinkedIn</li>
+                    <li><i class="fab fa-github"></i> Github</li>
+                    <li><i class="fab fa-instagram"></i> Instagram</li>
+                </ul>
+                <div class="row">
+                    <div id="phrase_1" class="col-md-4">
+                        <h1 class="display-1">YOU</h1>
+                        <h2>IMAGINE IT</h2>
+                    </div>
+                    <div class="col-md-4 align-self-center">
+                        <div class="align-middle" id="circle">
+                        </div>
+                    </div>
+                    <div id="phrase_2" class="col-md-4">
+                        <h2>I MAKE IT</h2>
+                        <h1 class="display-1">REAL</h1>
+                    </div>
+                </div>
+                <div class="downArrow">
+                    <a href="#habilities"><i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="habilities">
+        <div id="top">
+            <h1 class="display-1">Habilities</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="circle">
+                            <img src="images/html.svg" alt="Html">
+                        </div>
+                        <div class="container">
+                            <h5 class="card-title">Front End</h5>
+                            <p class="card-text">I am  capable of designing a colorful and beautiful layout for the user to interact with. One of the key elements of every website is its desing. I will provide a interface that will fulfill the needs of any user.</p>
+                            <h4>The tools I use are: </h4>
+                            <ul>
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap 4</li>
+                                <li>Materialize</li>
+                                <li>Semantic UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="circle">
+                            <img src="images/education.svg" alt="Html">
+                        </div>
+                        <h5 class="card-title">Problem Solving Skills</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="circle">
+                            <img src="images/javascript.svg" alt="javascript">
+                        </div>
+                        <h5 class="card-title">Back end</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="downArrow_black">
+                <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div id="top_projects">
+            <h1 class="display-1">Projects</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Yelp Camp</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
 
+</script>
+</html>
